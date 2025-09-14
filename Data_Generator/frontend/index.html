@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GenAI SQL to Data Generator</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>SQL Schema to Python Data Generator</h1>
+    
+    <textarea id="schemaInput" placeholder="Paste your SQL schema here..."></textarea>
+    <button id="generateBtn">Generate Python Script</button>
+    
+    <h2>Generated Python Script</h2>
+    <pre id="output"></pre>
+
+    <!-- Hidden download button until script is generated -->
+    <button id="downloadBtn" style="display: none;">Download Python File</button>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
