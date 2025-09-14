@@ -1,0 +1,25 @@
+# FastAPI & server
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+
+# Vector database
+faiss-cpu
+
+# Embedding model (Sentence Transformers)
+sentence-transformers==2.6.1
+torch>=2.0.0
+
+# HTML parsing
+beautifulsoup4==4.12.2
+
+# HTML templating
+jinja2==3.1.4
+
+# PDF support (optional, remove if not needed)
+# pdfplumber==0.10.3
+# PyPDF2==3.0.1
+
+# General utilities
+numpy==1.26.4
+scikit-learn==1.5.0
+
